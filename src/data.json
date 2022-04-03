@@ -1,140 +1,78 @@
 [
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
-      "address": {
-        "street": "Kulas Light",
-        "suite": "Apt. 556",
-        "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
-      },
-      "phone": "1-770-736-8031 x56442",
-      "website": "hildegard.org",
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/50-anniversary-cover1.jpg",
+      "title": "To Kill a Mockingbird" ,
+      "author": "Harper Lee",
+        "price": 300
     },
     {
       "id": 2,
-      "name": "Ervin Howell",
-      "username": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "address": {
-        "street": "Victor Plains",
-        "suite": "Suite 879",
-        "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
-      },
-      "phone": "010-692-6593 x09125",
-      "website": "anastasia.net",
-      "company": {
-        "name": "Deckow-Crist",
-        "catchPhrase": "Proactive didactic contingency",
-        "bs": "synergize scalable supply-chains"
-      }
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/1984.jpg",
+      "title": "1984" ,
+      "author": "George Orwell",
+        "price": 220
     },
     {
       "id": 3,
-      "name": "Clementine Bauch",
-      "username": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "address": {
-        "street": "Douglas Extension",
-        "suite": "Suite 847",
-        "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
-      },
-      "phone": "1-463-123-4447",
-      "website": "ramiro.info",
-      "company": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
-      }
-    },
-    {
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/harry_potter_and_the_Sorcerers_stone_adult_usa.jpg",
+      "title": "Harry Potter and the Philosopher’s Stone" ,
+      "author": " J.K. Rowling",
+        "price": 400
+    }, {
       "id": 4,
-      "name": "Patricia Lebsack",
-      "username": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "address": {
-        "street": "Hoeger Mall",
-        "suite": "Apt. 692",
-        "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
-      },
-      "phone": "493-170-9623 x156",
-      "website": "kale.biz",
-      "company": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/9780618640157_custom-s6-c30.jpg",
+      "title": "The Lord of the Rings" ,
+      "author": "J.R.R. Tolkien",
+        "price": 350
+    }, {
       "id": 5,
-      "name": "Chelsey Dietrich",
-      "username": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "address": {
-        "street": "Skiles Walks",
-        "suite": "Suite 351",
-        "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
-      },
-      "phone": "(254)954-1289",
-      "website": "demarco.info",
-      "company": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
-      }
-    },
-    {
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/Penguin-2.jpg",
+      "title": "The Great Gatsby" ,
+      "author": "F. Scott Fitzgerald",
+        "price": 200
+    }, {
       "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "username": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "address": {
-        "street": "Norberto Crossing",
-        "suite": "Apt. 950",
-        "city": "South Christy",
-        "zipcode": "23505-1337",
-        "geo": {
-          "lat": "-71.4197",
-          "lng": "71.7478"
-        }
-      },
-      "phone": "1-477-935-8478 x6430",
-      "website": "ola.org",
-      "company": {
-        "name": "Considine-Lockman",
-        "catchPhrase": "Synchronised bottom-line interface",
-        "bs": "e-enable innovative applications"
-      }
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/pride_and_prejudice_book_cover_by_fourblackbirds-d533108.png",
+      "title": " Pride and Prejudice" ,
+      "author": "Jane Austen",
+        "price": 250
+    }, {
+      "id": 7,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/diary-of-anne-frank-postcard-front_0.jpg",
+      "title": "The Diary Of A Young Girl" ,
+      "author": "Anne Frank",
+        "price": 300
+    }, {
+      "id": 8,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/71h2sjik5al-_sl1380_-641x1024.jpg",
+      "title": "The Book Thief" ,
+      "author": "Markus Zusak",
+        "price": 345
+    }, {
+      "id": 9,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/Hobbit_book-673x1024.jpg",
+      "title": "The Hobbit" ,
+      "author": "J.R.R. Tolkien",
+        "price": 500
+    }, {
+      "id": 10,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/9780147514011-731x1024.jpg",
+      "title": "Little Women" ,
+      "author": "Louisa May Alcott",
+        "price": 260
+    }, {
+      "id": 11,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/tumblr_nd4wnpO3ZS1tv8vcro1_r1_1280-682x1024.jpg",
+      "title": "Fahrenheit 451" ,
+      "author": "Ray Bradbury",
+        "price": 370
+    }, {
+      "id": 12,
+      "image": "https://cdn.lifehack.org/wp-content/uploads/2015/03/cvr9781416500247_9781416500247_hr-633x1024.jpg",
+      "title": "Jane Eyre" ,
+      "author": "Charlotte Bronte",
+        "price": 280
     }
+
 ]

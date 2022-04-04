@@ -1,5 +1,5 @@
 # Project Name: Gadget Galaxy
-## Live Site Link: https://github.com/programming-hero-web-course-4/product-analysis-website-FIShahid
+## Live Site Link: https://gadget-galaxy.netlify.app/
 ***
 ### General Info About This Project
 ***

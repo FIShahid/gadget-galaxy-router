@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Reviews from '../Reviews/Reviews';
 import kindle from '../../Assets/kindle.jpg'
+import HomeCard from '../HomeCard/HomeCard';
 
 const Home = () => {
     const [reviews] = useReviews()
@@ -9,7 +10,7 @@ const Home = () => {
     return (
         <div>
 
-            <div className='container grid grid-cols-2 items-center justify-items-center m-6 p-2'>
+            <div className='container grid sm:grid-cols-1 md:grid-cols-2  items-center justify-items-center m-6 p-2'>
                 <div className=''>
                     <h1 className='text-5xl'><span className='text-5xl font-bold text-green-500'>Lose yourself in a book—</span>
                         <span className='text-5xl font-bold text-purple-500'>wherever, whenever</span></h1>
@@ -18,7 +19,7 @@ const Home = () => {
                     </p>
                     <button className='m-5 p-4 bg-green-500 rounded-xl text-white font-bold w-[200px]'>Live Demo</button>
                 </div>
-                <div>
+                <div className=''>
                     <img src={kindle} alt="" />
                 </div>
 
@@ -29,19 +30,13 @@ const Home = () => {
                 {
 
 
-                    reviews.slice(0, 3).map(review =>
+                    reviews.slice(0, 3).map(review =><HomeCard
+                    key={review.id}
+                    review={review}
+                    
+                    ></HomeCard>
 
-                        <div className=' container max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-600 dark:border-gray-700 mx-12 mb-10'>
-                            <div className='flex flex-col items-center pb-10'>
-                                <img className='mb-3 w-24 h-34 mt-6 rounded-full shadow-lg ' src={review.image} alt="" />
-
-                                <h3 className='font-bold text-orange-400 mt-4 mb-4'> Name: {review.name}</h3>
-                                <p className='text-white font-mono p-4'>{(review.review)}</p>
-                                <p className='font-bold text-orange-500  bottom-0 '>Ratings: {review.ratings}</p>
-
-                            </div>
-
-                        </div>)
+                       )
                 }
             </div>
             <Link to='/reviews' element={<Reviews></Reviews>}>

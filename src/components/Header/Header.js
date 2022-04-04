@@ -10,7 +10,7 @@ const Header = () => {
             Gadget Galaxy
           </Link>
         </div>
-        <div className='flex gap-4 text-xl  '>
+        <div className='flex gap-5 text-xl   '>
           <CustomLink to='/'>Home</CustomLink>
           <CustomLink to='/reviews'>Reviews</CustomLink>
           <CustomLink to='/dashboard'>Dashboard</CustomLink>

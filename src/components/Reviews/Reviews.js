@@ -7,7 +7,7 @@ const Reviews = () => {
    
     return (
         <div className='px-4 pt-10 pb-24 mx-auto max-w-7xl md:px-2 '>
-            <p className='text-center text-3xl font-bold pb-10'>What our Customer Says...</p>
+            <p className='text-center text-3xl font-bold pb-10 text-purple-500'>What our Customer Says...</p>
             
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center'>
            {

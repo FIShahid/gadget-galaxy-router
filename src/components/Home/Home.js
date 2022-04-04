@@ -9,14 +9,14 @@ const Home = () => {
     return (
         <div>
 
-            <div className='flex flex-row py-8  mx-auto items-center justify-between container'>
+            <div className='container grid grid-cols-2 items-center justify-items-center m-6 p-2'>
                 <div className=''>
-                    <h1 className='text-5xl'>Lose yourself in a book—
-                        wherever, whenever</h1>
-                    <p>Kindle Paperwhite is thin, lightweight, and travels easily so you can enjoy your favorite books at any time. With our signature 300 ppi glare-free Paperwhite display—now 10% brighter at its max setting—you can read in any light. And now, a single battery charge via USB-C lasts up to 10 weeks. Battery life may vary depending on use.
+                    <h1 className='text-5xl'><span className='text-5xl font-bold text-green-500'>Lose yourself in a book—</span>
+                        <span className='text-5xl font-bold text-purple-500'>wherever, whenever</span></h1>
+                    <p className='mt-8 font-semibold '>Kindle Paperwhite is thin, lightweight, and travels easily so you can enjoy your favorite books at any time. With our signature 300 ppi glare-free Paperwhite display—now 10% brighter at its max setting—you can read in any light. And now, a single battery charge via USB-C lasts up to 10 weeks. Battery life may vary depending on use.
 
                     </p>
-                    <button className='m-5 p-5 bg-green-500'>Live Demo</button>
+                    <button className='m-5 p-4 bg-green-500 rounded-xl text-white font-bold w-[200px]'>Live Demo</button>
                 </div>
                 <div>
                     <img src={kindle} alt="" />
@@ -24,20 +24,20 @@ const Home = () => {
 
             </div>
 
-            <h4 className='text-4xl mt-5 mb-14'>Customer Review (3) </h4>
+            <h4 className='text-4xl mt-5 mb-14 font-bold text-purple-600'>Customer Review (3) </h4>
             <div className='grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                 {
 
 
                     reviews.slice(0, 3).map(review =>
 
-                        <div className=' container max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-12 mb-10'>
+                        <div className=' container max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-600 dark:border-gray-700 mx-12 mb-10'>
                             <div className='flex flex-col items-center pb-10'>
-                                <img className='mb-3 w-24 h-34 rounded-full shadow-lg ' src={review.image} alt="" />
+                                <img className='mb-3 w-24 h-34 mt-6 rounded-full shadow-lg ' src={review.image} alt="" />
 
                                 <h3 className='font-bold text-orange-400 mt-4 mb-4'> Name: {review.name}</h3>
-                                <p className='text-white font-mono p-4'>{review.review}</p>
-                                <p className='font-bold text-orange-500 '>Ratings: {review.ratings}</p>
+                                <p className='text-white font-mono p-4'>{(review.review)}</p>
+                                <p className='font-bold text-orange-500  bottom-0 '>Ratings: {review.ratings}</p>
 
                             </div>
 

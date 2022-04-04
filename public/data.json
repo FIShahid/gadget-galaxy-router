@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "image": "https://cdn.pixabay.com/photo/2014/07/09/10/04/man-388104_640.jpg",
+      "name": "W. S. Sawle" ,
+      "review": "I vowed never to leave the paperback world but this device changed me. It's a pleasure to read using the Kindle. Getting to screen commands is a little confusing but other than that, I'm sold.",
+        "ratings": "4.8 stars"
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.pixabay.com/photo/2017/06/09/05/17/person-2385787_960_720.jpg",
+      "name": "Barbara S. Pearlman" ,
+      "review": "This has just enough new features to make it worthwhile to upgrade. It is lighter and there is more reading area. It has many different ways to customize the lighting and a great selection of fonts. You can turn the page with just a touch on the side of the Kindle. No need to swipe unless you want to. I love this Kindle and would not hesitate to recommend it to anyone.",
+        "ratings": "5 stars"
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.pixabay.com/photo/2017/10/18/21/36/portrait-2865605_960_720.jpg",
+      "name": "Lilu Wane" ,
+      "review": "Love it. LOVE IT! Travel, read in bed at night, pick up for a minute while drinking coffee in the morning, tuck in purse for wait at DMV (or wherever). Easy on the eyes. I don't know why I didn't buy one years ago. I have probably read more in the last month than I have in the previous year because of my new kindle.",
+        "ratings": "5 starts"
+    },  {
+      "id": 4,
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg",
+      "name": "Mark Owen" ,
+      "review": "First of all, I own the last generation, and it's like a poor little sick puppy compared to this baby. Every aspect of it is better, literally EVERY ASPECT. The battery is incredible. Newb tip-keep airplane mode ON, it greatly enhances battery life in any kindle. When you want to buy a book, turn it off, and then SYNC your kindle after you buy your book. Good to do it once in a while anyway. I'm in love with this thing and will most likely buy a second one to have as a backup, just because I don't want to be without my precious.",
+        "ratings": "4.8 stars"
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.pixabay.com/photo/2017/03/27/23/07/business-woman-2180509_960_720.jpg",
+      "name": "Morgan Mendel" ,
+      "review": "Clear, more reading space on the page, more room for books, charges fast - Love my new Paperwhite. My old Paperwhite is still working, but I wasn't sure how long it would last. When the new Paperwhite went on sale, I leapt at the chance of getting it and am very satisfied with my purchase. Although that is true, I'm not thrilled about the new version of the Library which appears on both of them. The other version was much easier to navigate. I wish we had a choice of which to use.",
+        "ratings": "5 stars"
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.pixabay.com/photo/2019/10/19/12/09/business-4561250_960_720.png",
+      "name": "L A Phillips" ,
+      "review": "I am a book person, but the ability to download books and my rural location made this Kindle something I had to try. I am enjoying this immensely. With the case it is easy to hold. I LOVE the fact I can adjust brightness, font, boldness, etc. The battery life is impressive as I sit and read a couple hours at a time and it can go many days without charging. My only frustration is working the touch screen. Sometimes when I hit the right border it skips multiple pages, sometimes an entire chapter so i have to hunt for where I was. That is most likely operator error, so take it with a grain of salt. To have the ability to carry multiple books in a small compact unit is worth it to me. My husband tried mine and now has his own as well.",
+        "ratings": "5 starts"
+    }
+]

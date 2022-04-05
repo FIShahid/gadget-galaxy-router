@@ -47,7 +47,7 @@ const Dashboard = () => {
             <h4 className='text-2xl font-mono font-bold text-purple-700 mb-10' >Investment vs Revenue</h4>
 
 
-            <div className='grid grid-cols-2 mx-12 pb-5 mt-20 gap-10'>
+            <div className='grid md:grid-cols-1 lg:grid-cols-2 mx-12 pb-5 mt-20 gap-10'>
                 <LineChart width={400} height={300} data={data}>
 
                     <Line dataKey={"sell"}></Line>
